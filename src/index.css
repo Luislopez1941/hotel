@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Thin.ttf') format('ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Light.ttf') format('ttf');
+    font-weight: 300;
+    
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('ttf');
+    font-weight: 400;
+    
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('ttf');
+    font-weight: 500;
+    
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    
+}
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('ttf');
+    font-weight: 700;
+    
+}
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+    
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('./assets/fonts/Poppins/Poppins-Black.ttf') format('ttf');
+    font-weight: 900;
+    
+}
+
+:root {
+    --color-secundario: #3841F2;
+    --color-terciario: #2620E4;
+    --color-text: #F2F2F2;
+    --color-lead-green: #13794e;
+    --color--dune: #292823;
+    --color--bringht-yellow: #FFC425;
+    --color--soli-red: #FF1F00;
+    --color--portage: #8498EF;
+    --color--accent: #F5F6FA;
+    --color--white: #FFFFFF;
+    --color--grey: #E6E6E6;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1600px;
+    overflow-x: hidden;
+    
+}
+
+.text-bringht-yellow {
+    color: var(--color--bringht-yellow);
+}
+
+.lead-green {
+    color: var(--color-lead-green);
+}
+
+.text-secundario {
+    color: var(--color-secundario);
+}

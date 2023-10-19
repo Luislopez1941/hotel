@@ -1,0 +1,163 @@
+
+
+
+
+.left__container {
+    background-color: var(--color-secundario);
+    color: var(--color-text);
+}
+
+.left__content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px 20px;
+}
+
+.left__content h2 {
+    font-size: 3em;
+    
+}
+
+
+.login__right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__container {
+    
+}
+
+
+
+.title__login {
+    display: block;
+    width: 70%;
+    
+    
+}
+
+.title__login h2 {
+    color: var( --color-lead-green);
+    font-size: 2em;
+}
+
+
+
+.form__right input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: none !important;
+    outline: none !important;
+    
+}
+
+.form__right input:focus {
+    border: none !important;
+    
+}
+
+svg {
+    fill: var(--color--grey);
+    
+}
+
+.input {
+    border-radius: 10px;
+    border: 1.5px solid var(--color--grey) !important;
+}
+
+.input:hover svg {
+    fill: var(--color--bringht-yellow);
+    
+}
+
+.input:hover {
+    border-radius: 10px;
+    border: 1.5px solid var(--color--bringht-yellow) !important;
+}
+
+.form__right label {
+    text-align: start;
+    display: block;
+    padding: 10px 0;
+    
+}
+
+.buttons {
+
+}
+
+.button__login {
+    padding: 15px 0;
+    width: 70%;
+    border-radius: 10px;
+    background-color: var(--color--bringht-yellow) !important;
+    color: var(--color-duno);
+    border: none;
+ 
+}
+
+.button__login {
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+  }
+  
+  .button__login:hover {
+    transform: scale(1.1);
+  }
+  
+  .button__login:active {
+    transition-duration: 200ms;
+    transform: scale(.90);
+  }
+
+@media screen and (max-width: 768px) {
+
+    .title__login h2 {
+        color: var( --color--white);
+        
+    }    
+
+    .container__title {
+        background-color: var(--color-lead-green);
+        border-radius: 0 0 20px 20px;
+        
+    }
+    
+
+    .form__right input {
+        padding: 10px;
+        border: 2px solid black;
+        width: 100%;
+        border-radius: 10px
+    }
+
+    .login__left {
+        width: 100%; 
+        display: none;
+    }
+
+    .login__right {
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+
+    .title__login {
+        display: block;
+        width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        
+        
+    }
+    
+ 
+    
+    
+}

@@ -1,0 +1,39 @@
+.item-registration input {
+    padding: 10px;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 10px;
+    border: 1.5px solid var(--color--grey) !important;
+    outline: none;
+}
+
+.item-registration input:hover {
+    border: 1.5px solid var(--color--bringht-yellow) !important;
+}
+
+.item-registration input:focus {
+    border: 1.5px solid var(--color--bringht-yellow) !important;
+}
+
+.item-registration label {
+    text-align: start;
+    display: block;
+    padding: 10px 0;
+    
+}
+
+.btn-create {
+    padding: 15px 0;
+    width: 70%;
+    border-radius: 10px;
+    background-color: var(--color--bringht-yellow) !important;
+    color: var(--color-duno);
+    border: none;
+ 
+}
+
+.form-group {
+    margin: 15px 0;
+    
+}
+

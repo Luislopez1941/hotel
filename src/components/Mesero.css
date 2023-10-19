@@ -1,0 +1,61 @@
+.button__mesero {
+    display: flex;
+    background-color: #ffc425;
+    border-radius: 5px;
+    color: var(--color--dune);
+
+}
+
+.container__mesero {
+    height: 100vh;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 74px -8px rgba(0,0,0,0.1);
+    background-color: #fff; */
+}
+
+.nombres-cocteles button {
+    display: block;
+    margin: 10px 0;
+    color: var(--color-lead-green);
+    padding: 10px 20px;
+    border: 1.5px solid var(--color-lead-green);
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .nav__mesero::-webkit-scrollbar-thumb {
+        background-color: black; /* Color de fondo del thumb */
+        
+      }
+      
+      /* Opcional: Cambiar el color de la barra de desplazamiento en sí */
+      .nav__mesero::-webkit-scrollbar {
+        background-color: var(#fff); /* Color de fondo de la barra de desplazamiento */
+        border-bottom: 4px solid var(--color-lead-green);
+        
+      }
+      
+    .mesero {
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch; /* Habilita el desplazamiento con el dedo en dispositivos iOS */
+    }
+    
+    .nav__mesero {
+        width: 300% !important;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch; /* Habilita el desplazamiento con el dedo en dispositivos iOS */
+    }
+
+    .container-cocteles {
+        box-shadow: 0px 0px 74px -8px rgba(0,0,0,0.1);
+        background-color: #fff;
+        border-radius: 20px;
+    }
+}

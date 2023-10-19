@@ -1,0 +1,121 @@
+.hero {
+    height: 80px;
+    color: #13794e;
+
+}
+
+.hero__container {
+    width: 90%;
+    height: 100%;
+}
+
+.nav__hero {
+    width: 700px;
+}
+
+.container__logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav__items {
+    display: flex;
+    width: 700px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.nav__link {
+    color: black !important;
+}
+
+ /*================Nav Modal=====================*/
+  
+ .toggle {
+    display: none;
+    justify-content: center;
+    align-items: center;      /* centra los elementos */
+    width: 40px;
+    height: 40px;
+}
+
+#toggle__button {
+    width: 40px;
+    height: 40px;
+    transform: scale(.8);
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    
+    
+}
+
+.span {
+    background: var(--color-lead-green);
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.4s, width 0.3s ;
+}
+
+.l1{
+    transform: translate(-50%, -15px);
+}
+
+.l3{
+    transform: translate(-50%, 10px);
+}
+
+/* PARTE DE JAVASCRIPT */
+.activo .l1{
+    transform: translate(-50%, -50%)rotate(45deg);
+}
+.activo .l3{
+    transform: translate(-50%, -50%)rotate(-45deg);
+}
+
+.activo .l2{
+    width: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle {
+        display: block;
+        z-index: 10;
+        
+    }
+
+   
+    .nav__items {
+        display: block;
+        width: 300px;
+        height: 100vh;
+        position: absolute;
+        padding: 50px;
+        top: 0;
+        right: -300px; /* Cambia de 0px a -300px para ocultar inicialmente */
+        background-color: var(--color--white);
+        font-size: 1.2rem;
+        font-weight: 700;
+        transition: right 0.5s ease !important; /* Debes mantener la misma transición */
+        z-index: 9;
+        
+        
+      }
+      
+      .visible {
+        right: 0px;
+        transition: right 0.5s ease !important; /* Agregar una transición para un desplazamiento suave */
+        
+    }
+
+    .nav__item {
+        margin: 50px 0;
+    }
+}
