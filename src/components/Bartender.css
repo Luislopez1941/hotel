@@ -25,6 +25,31 @@
 
 }
 
+.nav__mesero svg {
+    fill: var(--color--dune);
+}
+
+.search input {
+    padding: 10px 0;
+    text-indent: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1.5px solid var(--color--bringht-yellow);
+}
+
+.search button {
+    padding: 10px 0;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: var(--color-lead-green);
+    color: var(--color--white);
+}
+
+.search__svg {
+    transform: rotate(90deg);
+    fill: var(--color--white);
+}
+
 
 
 

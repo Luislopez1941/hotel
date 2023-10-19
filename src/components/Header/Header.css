@@ -1,3 +1,4 @@
+
 .hero {
     height: 80px;
     color: #13794e;
@@ -93,13 +94,13 @@
 
    
     .nav__items {
-        display: block;
+        display: none;
         width: 300px;
         height: 100vh;
         position: absolute;
         padding: 50px;
         top: 0;
-        right: -300px; /* Cambia de 0px a -300px para ocultar inicialmente */
+        right: 0; /* Cambia de 0px a -300px para ocultar inicialmente */
         background-color: var(--color--white);
         font-size: 1.2rem;
         font-weight: 700;
@@ -110,7 +111,7 @@
       }
       
       .visible {
-        right: 0px;
+        display: block;
         transition: right 0.5s ease !important; /* Agregar una transición para un desplazamiento suave */
         
     }
